@@ -20,6 +20,8 @@ export LIBRARY_PATH="${PREFIX}/lib"
             --enable-linux-lfs \
             --with-zlib="${PREFIX}" \
             --with-pthread=yes  \
+            --enable-threadsafe \
+            --enable-unsupported \
             --enable-cxx \
             --enable-fortran \
             --enable-fortran2003 \
